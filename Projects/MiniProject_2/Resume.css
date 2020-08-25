@@ -1,0 +1,88 @@
+img{
+    border-image: round;
+    border-radius: 90%;
+    border-color: white;
+}
+
+body {
+    /* background-image: linear-gradient(to bottom right, orange, white, green); */
+    background-image: linear-gradient(0.25turn, orange, white, green);
+}
+
+.sidebarContent {
+    float: left;
+    background-image: linear-gradient(magenta,skyblue);
+    margin: 10px;
+    height: 10%;
+    padding: 20px;
+}
+
+.mainbarContent {
+    float: inline-end;
+    clear: right;
+    overflow: auto;
+    background-image: linear-gradient(green,yellow);
+    margin: 10px;
+    height: 10%;
+    padding: 20px;
+}
+
+h5 {
+    color: teal;
+    align-content: center;
+}
+
+h1 {
+    color: khaki;
+    align-content: center;
+}
+
+li {
+    color: red;
+    align-content: center;
+}
+
+table,tr,td {
+    border:solid 2px black;
+}
+/* .careero>h1 {
+    font-size: 30px;
+    background-image: linear-gradient(to bottom right, yellow, white);
+}
+.careero>h1:hover {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, green, white);
+} */
+
+/* .sidebarContent {
+    margin-bottom: 10px;
+    min-height: 850px;
+    background-color: coral;
+    text-align: center;
+    font-size: medium;
+}
+
+.mainbarContent {
+    margin-bottom: 10px;
+    min-height: 865px;
+    background-color: coral;
+    text-align: center;
+    font-size: medium;
+} */
+
+/* .sideContent {
+    margin-bottom: 10px;
+    min-height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: medium;
+}
+
+.mainContent {
+    margin-bottom: 10px;
+    min-height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: medium;
+} */
+

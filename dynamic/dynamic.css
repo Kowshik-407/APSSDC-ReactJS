@@ -1,0 +1,19 @@
+#age {
+    background-color: whitesmoke;
+    color: royalblue;
+    font-size: x-large;
+}
+
+h1 {
+    color: red;
+}
+
+table,td,tr {
+    border: 2px solid aqua;
+    border-collapse: collapse;
+}
+
+img {
+    border-image: auto;
+    border: 2px solid red;
+}

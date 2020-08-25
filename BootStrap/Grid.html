@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grid Examples </title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <style type="text/css">
+        .parent, .parent2, .parent3, .main {
+            border : 2px solid blue;
+            width  : 100%;
+            padding: 1%;
+            margin: 1%;
+        }
+        .row>div {
+            border : 2px dotted maroon;
+        }
+    </style>
+</head>
+<body>
+    <!-- Extra Small devices like mobile    <= 0768px xs -->
+    <!-- small devices like tab             <= 0992px sm -->
+    <!-- medium devices like laptop         <= 1200px md -->
+    <!-- large devices like larger desktop  >  1200px lg -->
+    <div class="parent">
+        <div class="row">
+            <div class="col-xs-1"> 1 </div>
+            <div class="col-xs-1"> 2 </div>
+            <div class="col-xs-1"> 3 </div>
+            <div class="col-xs-1"> 4 </div>
+            <div class="col-xs-1"> 5 </div>
+            <div class="col-xs-1"> 6 </div>
+            <div class="col-xs-1"> 7 </div>
+            <div class="col-xs-1"> 8 </div>
+            <div class="col-xs-1"> 9 </div>
+            <div class="col-xs-1">10 </div>
+            <div class="col-xs-1">11 </div>
+            <div class="col-xs-1">12 </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 2 </div>
+            <div class="col-sm-1"> 3 </div>
+            <div class="col-sm-1"> 4 </div>
+            <div class="col-sm-1"> 5 </div>
+            <div class="col-sm-1"> 6 </div>
+            <div class="col-sm-1"> 7 </div>
+            <div class="col-sm-1"> 8 </div>
+            <div class="col-sm-1"> 9 </div>
+            <div class="col-sm-1">10 </div>
+            <div class="col-sm-1">11 </div>
+            <div class="col-sm-1">12 </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"> 1 </div>
+            <div class="col-md-1"> 2 </div>
+            <div class="col-md-1"> 3 </div>
+            <div class="col-md-1"> 4 </div>
+            <div class="col-md-1"> 5 </div>
+            <div class="col-md-1"> 6 </div>
+            <div class="col-md-1"> 7 </div>
+            <div class="col-md-1"> 8 </div>
+            <div class="col-md-1"> 9 </div>
+            <div class="col-md-1">10 </div>
+            <div class="col-md-1">11 </div>
+            <div class="col-md-1">12 </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1"> 1 </div>
+            <div class="col-lg-1"> 2 </div>
+            <div class="col-lg-1"> 3 </div>
+            <div class="col-lg-1"> 4 </div>
+            <div class="col-lg-1"> 5 </div>
+            <div class="col-lg-1"> 6 </div>
+            <div class="col-lg-1"> 7 </div>
+            <div class="col-lg-1"> 8 </div>
+            <div class="col-lg-1"> 9 </div>
+            <div class="col-lg-1">10 </div>
+            <div class="col-lg-1">11 </div>
+            <div class="col-lg-1">12 </div>
+        </div>
+    </div>
+    <div class="parent2">
+        <div class="row">
+            <!-- Unequal Parts -->
+            <div class="col-md-6 col-sm-6"> 1 st Part </div>
+            <div class="col-md-6 col-sm-6"> 2 nd Part </div>
+        </div>
+    </div>
+    <div class="parent3">
+        <div class="row">
+            <!-- Equal parts -->
+            <div class="col-md-5"> 1 st part </div>
+            <div class="col-md-7"> 2 nd part </div>
+        </div>
+    </div>
+    <!-- Reordering of grid -->
+    <div class="main">
+        <div class="row">
+            <div class="col order-3"> 1 st div changed to order 3 </div>
+            <div class="col order-4"> 2 nd div changed to order 4 </div>
+            <div class="col order-2"> 3 rd div changed to order 2 </div>
+            <div class="col order-1"> 4 th div changed to order 1 </div>
+        </div>
+    </div>
+</body>
+</html>

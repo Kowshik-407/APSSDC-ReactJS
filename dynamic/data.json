@@ -1,0 +1,41 @@
+{
+    "details" : {
+        "name"      : "APSSDC",
+        "age"       : 18,
+        "picture"   : "187.jpg", 
+        "courses"   : ["Web Design Using ReactJS", "Python", "Data Analysis", "Machine Learning"]
+    },
+    "trainers" : [
+        {
+            "name":"Kowshik407",
+            "experience": "5 Years",
+            "designation":"Multi-skill Learner",
+            "skills":["Scratch","Android","Web Development","Automation in UI"]
+        },
+        {
+            "name":"Aravind415",
+            "experience": "5 Years",
+            "designation":"Multi-skill Learner",
+            "skills":["Android","Web Development","Progressive Web Apps","MIT App Invention"]
+        },
+        {
+            "name":"Sridhar405",
+            "experience": "5 Years",
+            "designation":"Multi-skill Learner",
+            "skills":["MATLAB","Microprocessors and microcontrollers","IC Design","Rasperry Pi"]
+        },
+        {
+            "name":"Venkatesh404",
+            "experience": "5 Years",
+            "designation":"Multi-skill Learner",
+            "skills":["Cricket","Effective learning","Volley Ball","Procrastination"]
+        },
+        {
+            "name":"Purushotham422",
+            "experience": "5 Years",
+            "designation":"Multi-skill Learner",
+            "skills":["Kabbadi","Cricket","Volley Ball","AUTOCAD"]
+        }
+    ]
+}
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ES6_Basics </title>
+</head>
+<body>
+    <script type="text/javascript">
+        var myfunc1 = function show(){
+            console.log("This is a normal Function");
+        }
+        var myfunc2 = function (){
+            console.log("This is an Anonymous Function");
+        }
+        var myfunc3=()=>{
+            console.log("This is an Arrow Function");
+        }
+        myfunc1()
+        myfunc2()
+        myfunc3()
+        // Arrow function ways of representation
+        var a=x=>{
+            console.log(x);
+        };a(7)
+        // Without Braces
+        var a=()=> console.log("Without Braces");
+        a()
+        var b=(a,b,c)=>{
+            console.log(a+' '+b+' '+c);
+        }
+        b(4,7,15);
+        b(4,7);
+        // With Default Values
+        var b=(a,b,c=738)=>{
+            console.log(a+' '+b+' '+c);
+        }
+        b(4,7,15);
+        b(4,7);
+
+        // Rest Parameters
+        function none(a,b,c,d,e){
+            console.log(a+b+c+d+e);
+        }
+        none(10,11,12,13,14)
+        function rest(...args){
+            var sum = 0;
+            for(let i of args){
+                sum += i;
+            }
+            console.log("sum = " + sum);
+        }
+        rest(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20);
+
+        // Donts of rest parameters
+        // function restp(a,...r,b){ It gives the output because rest parameter should be given at last itself
+        function restp(a,b,...r){
+            // console.log(a+...r-b); this declaration is wrong to give
+            console.log(...r);
+        }
+        restp(1,2,3,4,5,6,7,8,9,10);
+
+        // arrow function with the rest parameters
+        var rest_arr=(a,b,...args)=>{
+            console.log(a + ' ' + args + ' ' + b);
+        }
+        rest_arr(11,12,13,14,15,16,17,18,19,20);
+
+        // Spread Operator(...)
+        var friends = ['Kowshik',"Triyekhson",`Aravind`]
+        var friends_arr = [...friends,'Venkatesh',"Purushotham",`Jassu`]
+        console.log(friends);
+        console.log(friends_arr);
+
+        //  Copy
+        var friends = ['Kowshik',"Triyekhson",`Aravind`]
+        var friends_arr = [...friends]
+        console.log(friends);
+        console.log(friends_arr);
+        // To Push
+        friends_arr.push('Jassu');
+        console.log(friends);
+        console.log(friends_arr);
+
+        // Copy directly
+        var friends = ['Kowshik',"Triyekhson",`Aravind`]
+        var friends_arr = friends;
+        console.log(friends);
+        console.log(friends_arr);
+        // To push an element
+        friends_arr.push('Jassu');
+        console.log(friends);
+        console.log(friends_arr);
+
+        var strn = ['a',...'bcdef','g']
+        console.log(strn);
+
+        // var,let,const
+
+        // var
+        var x = 45;
+        var y = 11
+        console.log(x , y, x + y);
+        var y = 15
+        var x = 3;
+        console.log(x , y, x + y);
+        var y = 7;
+        var x = 15;
+        console.log(x, y, x + y);
+        // let
+
+        // let a = 5;
+        // let a = 7;
+        // console.log(a);          --> It shows an error
+        let aa = 5;
+
+        aa = 7;
+        console.log(aa);
+
+        let a1 = 7; b1= 15
+        function show(){
+            let a1 = 34, b1 = 36;
+            console.log(a1 + b1);
+        }
+        show();
+        console.log(a1 + b1);
+        // const
+
+        // const f = 10;
+        // const f = 11;
+        // console.log(f)             --> It shows an error
+        
+        // const f = 10;
+        // f = 11;
+        // console.log(f)           --> It shows an error because const is immutable
+
+        // for loops(for(;;), for in, for of)
+
+        for(var i = 0; i <= 10; i++){
+            let a = 7;
+            console.log(a + '*' + i + '=' + a*i);
+        }
+
+        var z = [1,2,3,4,5,6,7,8,9,10], sum=0;
+        for(var y in z){
+            sum += y;
+        }
+        console.log('sum using in stmt' , sum);
+
+        var z = [1,2,3,4,5,6,7,8,9,10], sum=0;
+        for(var y of z){
+            sum += y;
+        }
+        console.log('sum using of stmt' , sum);
+
+        // map functions
+        var map = new Map();
+        map.set('Kowshik407','IT Student');
+        map.set('Triyekhson436','Groups Student');
+        map.set('Jashwanth434','Gaming Student');
+        console.log(map.size);
+
+        // Template Literals
+        console.log("Hello Everyone!! \n This is Kowshik407");
+        console.log(`Hello Everyone!! 
+        This is Kowshik407`);
+
+        // String Interpolation
+        var str1 = 'Kowshik407', str2 = 'Triyekhson436', str3 = 'Jaasu434';
+        console.log(`Hello Mr ${str1} ; a warm welcome to you and to your friends ${str2} and ${str3}.`);
+
+        // Destructing
+        var arr1 = ['reactjs','angularjs','javascript_ES6','HTML5','CSS3']
+        var [one,two,three] = arr1;
+        console.log(one ,';', two,';', three);
+        var [one,three,five] = arr1;
+        console.log(one ,';', three,';', five);
+        var [one,,three,,five] = arr1;
+        console.log(one ,';', three,';', five);
+
+        // Rest Parameters in destructing
+        var arr1 = ['Kowshik407','Jassu434','Triyekhson436','Aravind415','Sridhar405']
+        var [one,two,...args] = arr1;
+        console.log(one ,';', two,';', args);
+
+        // Default value of destructuring
+        var a,b;
+        [a=7,b=15] = [21]
+        console.log(a , b);
+
+        // Parsing returned array from function
+        function array4() {
+            return [7,15,21]
+        }
+        var [m,n,o] = array4();
+        console.log(m,n,o);
+
+        // Object Destructuring
+        const x1 = {aaa:100,bbb:200,ccc:300}
+        const {aaa,bbb} = x1;
+        console.log(aaa , bbb);
+    </script>
+</body>
+</html>
+
+
+

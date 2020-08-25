@@ -1,0 +1,76 @@
+.card{
+    border: 2px solid cornflowerblue;
+    background-color: wheat;
+    text-align: center;
+    color: rgb(116, 113, 129);
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+}
+a{
+    color: red;
+}
+body{
+    background-image: url("811.jpg");
+    background: no-repeat;
+    background-color: cornflowerblue;
+}
+.flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+img{
+    width: 200pt;
+}
+
+/* Media Queries
+Mobiles --> 320 - 425px
+Tablet  --> 426 - 728px
+Laptop  --> 729 - 1024px or 1440px or above */
+
+@media screen and (min-width: 360px) and (max-width: 425px) {
+    .card{
+        border: 2px solid cornflowerblue;
+        background-color: yellow;     /* Check it once if it crosses 425 px the background colour chages*/
+        text-align: center;
+        color: rgb(116, 113, 129);
+        margin: 5px;
+        width: 300px;
+        padding: 20px;
+    }
+    a{
+        color: green;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 728px) {
+    .card{
+        border: 2px solid cornflowerblue;
+        background-color: green;     /* Check it once if it crosses 425 px the background colour chages*/
+        text-align: center;
+        color: red;
+        margin: 5px;
+        width: 300px;
+        padding: 20px;
+    }
+    a{
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 729px) and (max-width: 1024px) {
+    .card{
+        border: 2px solid cornflowerblue;
+        background-color: firebrick;     /* Check it once if it crosses 425 px the background colour chages*/
+        text-align: center;
+        color: blueviolet;
+        margin: 5px;
+        width: 300px;
+        padding: 20px;
+    }
+    a{
+        color: sandybrown;
+    }
+}

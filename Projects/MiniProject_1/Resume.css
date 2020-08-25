@@ -1,0 +1,32 @@
+.sidebarContent {
+    /* margin-bottom: 10px; */
+    min-height: 850px;
+    background-color: coral;
+    text-align: center;
+    font-size: medium;
+}
+
+.mainbarContent {
+    /* margin-bottom: 10px; */
+    min-height: 865px;
+    background-color: coral;
+    text-align: center;
+    font-size: medium;
+}
+
+.sideContent {
+    /* margin-bottom: 10px; */
+    min-height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: medium;
+}
+
+.mainContent {
+    /* margin-bottom: 10px; */
+    min-height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: medium;
+}
+

@@ -1,0 +1,55 @@
+{
+    "info" : {
+        "Name"  : "Kowshik Kumar Aitha",
+        "Email" : "aitha.kowshik3@gmail.com",
+        "Phone_Number" : "+919381437331",
+        "image" : "profile.png"
+    }, 
+    "Hobbies" : [
+        "Playing Techno Riddles",
+        "Learning Techno Flyers",
+        "Programming & Code"
+    ],
+    "Languages_Known" : [
+        "English",
+        "Telugu",
+        "Hindi"
+    ],
+    "Career_Objective" : {
+        "para" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas, repellendus aspernatur rerum quod molestias numquam corporis vero cumque suscipit nesciunt eum architecto ex accusantium qui pariatur sequi maxime amet ut. Nam, doloribus natus omnis tenetur quod adipisci unde atque beatae, sequi voluptate ullam exercitationem sint dicta culpa. Nobis, velit?"
+    },
+    "Education_Details" : [{
+        "SNO" : "S.NO",
+        "Name_of_the_Institution" : "Name of the Institution",
+        "Branch" : "Branch",
+        "Start_Date" : "Start Date",
+        "End_Date" : "End Date"
+    },
+    {
+        "SNO" : "1",
+        "Name_of_the_Institution" : "Pushpagiri Central Board Of Secondary Education",
+        "Branch" : "CBSE",
+        "Start_Date" : "10-06-2004",
+        "End_Date" : "19-03-2016"
+    },
+    {
+        "SNO" : "2",
+        "Name_of_the_Institution" : "Narayana Junior College of Secondary Education",
+        "Branch" : "MPC",
+        "Start_Date" : "01-06-2016",
+        "End_Date" : "04-05-2018"
+    },
+    {
+        "SNO" : "3",
+        "Name_of_the_Institution" : "Sree Vidyanikethan Engineering College (Autonomous)",
+        "Branch" : "ECE",
+        "Start_Date" : "16-07-2018",
+        "End_Date" : "..."
+    }],
+    "Career_Development" : {
+        "para" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, reprehenderit hic ipsum itaque totam nihil magnam, vitae sit asperiores placeat iure aspernatur tenetur. Officia non ipsum voluptatem natus eveniet obcaecati mollitia sed quibusdam, molestiae cum et, dignissimos tempora nobis recusandae ut, provident repellat molestias exercitationem aliquam. Dolore facere numquam illum voluptatibus ut dolorum, repellat distinctio libero suscipit excepturi harum iste."
+    },
+    "Awards_and_Achievements" : {
+        "para" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos maiores, sapiente distinctio labore consequuntur voluptatum non, sint libero eligendi culpa incidunt molestiae totam. Deleniti ipsum, aperiam vero ratione error laboriosam quod exercitationem iusto minus eum nesciunt! Odio ipsum, dignissimos dolore vel quasi voluptas error pariatur perferendis! Dolorem animi officiis voluptate rem quisquam, voluptatibus amet quas quidem ab eius? Ducimus, incidunt."
+    }
+}
